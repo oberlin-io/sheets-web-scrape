@@ -7,7 +7,9 @@ The goal in this module, which draws from a real estate listing table, is for th
  1. determine if the listing start date falls within the past year,
  2. and if so, write a short paragraph describing the listing, including listing date, original asking price, current state, and current state asking price.
 
-The user copies an entire web browser table into a tab, in this case named 'mls_dom'.
+![Table](https://raw.githubusercontent.com/oberljn/sheets-web-scrape/master/mls_dom_table.png)
+
+The user copies the entire web browser table into a tab, in this case named 'mls_dom'.
 
 The entire module is wrapped in  an IF() function, which tests the number of days between TODAY() and 'New Listing' QUERY() result.
 
